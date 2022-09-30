@@ -1,0 +1,3 @@
+SELECT is_broker_enabled FROM sys.databases WHERE name = 'TaxDeclarationDB';
+
+ALTER DATABASE [TaxDeclarationDB] SET ENABLE_BROKER WITH ROLLBACK IMMEDIATE
